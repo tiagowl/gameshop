@@ -1,0 +1,35 @@
+#titulo{
+  color: rgb(207, 204, 204);
+  font-family: mozer;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+#form label{
+  font-family: mozer;
+  color: rgb(159, 156, 156);
+  font-size: 30px;
+}
+
+.form-input{
+  border: solid 1px rgb(238, 237, 237);
+  border-radius: 15px;
+  height: 40px;
+  width: 400px;
+}
+
+#btn-primary{
+  background-color: rgb(74, 74, 233);
+  border-radius: 12px;
+  position: absolute;
+  border: none;
+  color: white;
+  font-family: akrobat;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#btn-primary:hover{
+  background-color: rgb(124, 124, 250);
+}

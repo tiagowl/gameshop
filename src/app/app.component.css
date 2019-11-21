@@ -1,0 +1,170 @@
+#navbar{
+    height: 60px;
+    width: 100%;
+    box-shadow: 1.5px 1.5px 1.5px rgb(240, 238, 238);
+}
+
+#logout{
+  position: absolute;
+  float: right;
+  margin-left: 1160px;
+  margin-top: 12px;
+  width: 25px;
+  height: 27px;
+}
+
+#login{
+  position: absolute;
+  float: right;
+  margin-left: 1220px;
+  margin-top: 12px;
+  width: 27px;
+  height: 29px;
+}
+
+#logo{
+  position: absolute;
+  float: left;
+  margin-left: 30px;
+  margin-top: 6px;
+  height: 42px;
+  width: 40px;
+}
+
+#navbar-itens{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 160px;
+    float: right;
+    position: absolute;
+}
+
+@font-face{
+  font-family: rubik;
+  src: url(../assets/fonts/Rubik-Medium.ttf);
+}
+
+@font-face{
+  font-family: amble;
+  src: url(../assets/fonts/Amble-Regular.ttf);
+}
+
+@font-face{
+  font-family: pt-sans;
+  src: url(../assets/fonts/PTC55F.ttf);
+}
+
+@font-face{
+  font-family: fira-sans;
+  src: url(../assets/fonts/FiraSans-Medium.otf);
+}
+
+@font-face{
+  font-family: nobile;
+  src: url(../assets/fonts/Nobile-Medium.ttf);
+}
+
+@font-face{
+  font-family: cantarel;
+  src: url(../assets/fonts/Cantarell-Oblique.ttf);
+}
+
+@font-face{
+  font-family: akrobat;
+  src: url(../assets/fonts/TTF/Akrobat-Bold.ttf);
+}
+
+@font-face{
+  font-family: gilam;
+  src: url(../assets/fonts/GilamDemo-Black.otf);
+}
+
+@font-face{
+  font-family: gilam;
+  src: url(../assets/fonts/GilamDemo-Black.otf);
+}
+
+@font-face{
+  font-family: squad;
+  src: url(../assets/fonts/Squad-Regular.otf);
+}
+
+@font-face{
+  font-family: mozer;
+  src: url(../assets/fonts/Mozer/Mozer-SemiBold.otf);
+}
+
+@font-face{
+  font-family: unisans;
+  src: url(../assets/fonts/UniSansDemo-ThinCAPS.otf);
+}
+
+.navbar-item{
+    display: inline;
+    position: relative;
+    margin-right: 30px;
+    color: rgb(159, 156, 156);
+    font-family: squad;
+    font-size: 18px;
+    font-family: mozer;
+}
+
+.navbar-item:hover{
+  color: gray;
+}
+
+#search{
+    border: solid 1px rgb(238, 237, 237);
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 300px;
+    border-radius: 15px;
+    height: 23px;
+}
+
+#container{
+    height: auto;
+    width: 800px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+#opcoes{
+  float: left;
+  position: absloute;
+  height: 500px;
+  width: 20%;
+  border: solid 1px rgb(231, 231, 231);
+  border-left: none;
+}
+
+#opcoes-lista{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.opcao-titulo{
+  color: rgb(207, 204, 204);
+  font-size: 20px;
+  font-family: akrobat;
+  margin-bottom: 10px;
+}
+
+.opcao-item{
+  font-size: 15px;
+  font-family: mozer;
+  color: rgb(159, 156, 156);
+  margin-bottom: 6px;
+}
+
+.opcao-item:hover{
+  color: gray;
+}
+
+#creditos{
+  margin-top: 550px;
+  font-family: mozer;
+  color: rgb(159, 156, 156);
+}

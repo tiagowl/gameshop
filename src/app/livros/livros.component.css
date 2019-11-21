@@ -1,0 +1,121 @@
+.card{
+  height: 300px;
+  width: 250px;
+  box-shadow: 2px 2px 2px 2px rgb(241, 241, 241);
+  display: inline-flex;
+  border-radius: 6px;
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.card:hover{
+  box-shadow: 3px 3px 3px 3px rgb(224, 224, 224);
+}
+
+#card-list{
+  width: 1000px;
+  float: right;
+  position: absolute;
+}
+
+.img-livro{
+  width: 150px;
+  height: 150px;
+  margin-left: 40px;
+}
+
+.btn-primary{
+  height: 20px;
+  width: 60px;
+  background-color: rgb(74, 74, 233);
+  border-radius: 12px;
+  position: absolute;
+  border: none;
+  color: white;
+  margin-left: 80px;
+  font-family: akrobat;
+  font-size: 15px;
+  margin-top: 240px;
+  padding: 10px;
+}
+
+.nome-livro{
+  margin-top: 170px;
+  position: absolute;
+  margin-left: 60px;
+  font-size: 18px;
+  font-family: mozer;
+  color: rgb(159, 156, 156);
+}
+
+
+.btn-primary:hover{
+  background-color: rgb(124, 124, 250);
+}
+
+.img-game{
+  width: 130px;
+  height: 130px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.preco{
+  font-family: amble;
+  position: absolute;
+  margin-top: 207px;
+  margin-left: 60px;
+  color: rgb(74, 73, 73);
+}
+
+
+@font-face{
+  font-family: rubik;
+  src: url(../../assets/fonts/Rubik-Medium.ttf);
+}
+
+@font-face{
+  font-family: amble;
+  src: url(../../assets/fonts/Amble-Regular.ttf);
+}
+
+@font-face{
+  font-family: pt-sans;
+  src: url(../../assets/fonts/PTC55F.ttf);
+}
+
+@font-face{
+  font-family: fira-sans;
+  src: url(../../assets/fonts/FiraSans-Medium.otf);
+}
+
+@font-face{
+  font-family: nobile;
+  src: url(../../assets/fonts/Nobile-Medium.ttf);
+}
+
+@font-face{
+  font-family: cantarel;
+  src: url(../../assets/fonts/Cantarell-Oblique.ttf);
+}
+
+@font-face{
+  font-family: akrobat;
+  src: url(../../assets/fonts/TTF/Akrobat-Bold.ttf);
+}
+
+@font-face{
+  font-family: gilam;
+  src: url(../../assets/fonts/GilamDemo-Black.otf);
+}
+
+@font-face{
+  font-family: gilam;
+  src: url(../../assets/fonts/GilamDemo-Black.otf);
+}
+
+@font-face{
+  font-family: squad;
+  src: url(../../assets/fonts/Squad-Regular.otf);
+}
