@@ -1,9 +1,25 @@
-<h1 id="titulo" >Cadastro de Livro</h1>
+<h1 id="titulo" >Cadastro de Game</h1>
 
 <form id="form" action="" method="post">
     <label>Nome</label><br>
-    <input type="text" name="" class="form-input"><br><br>
+    <input type="text" name="nome" class="form-input"><br><br>
     <label>Descrição</label><br>
-    <input type="text-area" name="" style="height: 200px;" class="form-input"><br>
+    <input type="text-area" name="descricao" style="height: 200px;" class="form-input"><br>
+    <label>Preço</label><br>
+    <input type="text" name="preco" class="form-input"><br><br>
+    <label>Categoria</label><br>
+    <select name="categoria" id="" class="form-input">
+      <option value="1">Ação</option>
+      <option value="2">Aventura</option>
+      <option value="3">Tiro</option>
+      <option value="4">Futebol</option>
+      <option value="5">Terror</option>
+    </select><br><br>
+    <label>Plataforma</label><br>
+    <select name="plataforma" id="" class="form-input">
+      <option value="1">Playstation 4</option>
+      <option value="2">Playstation 3</option>
+      <option value="3">Xbox One</option>
+    </select><br><br>
     <button type="submit" id="btn-primary" >Cadastrar</button>
 </form>
