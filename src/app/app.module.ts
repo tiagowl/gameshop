@@ -8,12 +8,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LivrosComponent } from './livros/livros.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
+import { GameComponent } from './game/game.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LivrosComponent,
-    CadastroComponent
+    CadastroComponent,
+    GameComponent
   ],
   imports: [
     BrowserModule,

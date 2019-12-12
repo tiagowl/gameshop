@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ApiService {
 
-  PHP_API_SERVER = "http://127.0.0.1";
+  PHP_API_SERVER = "http://127.0.0.1:3306";
 
   constructor(private HttpClient: HttpClient) {}
 

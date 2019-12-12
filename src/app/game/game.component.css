@@ -1,0 +1,75 @@
+#game{
+  position: absolute;
+  float: left;
+  margin-top: 50px;
+}
+
+#local{
+  position: absolute;
+  float: left;
+  margin-left: 50px;
+  font-size: 14px;
+  color: rgb(207, 204, 204);
+  font-family: mozer;
+}
+
+#nome{
+  float: right;
+  position: absolute;
+  margin-left: 430px;
+  margin-top: 60px;
+  font-size: 45px;
+  font-family: mozer;
+  color: rgb(74, 74, 233);
+}
+
+#quadro-preco{
+  background-color: rgb(241, 239, 239);
+  position: absolute;
+  float: right;
+  margin-left: 430px;
+  width: 360px;
+  height: 285px;
+  margin-top: 150px;
+}
+
+#quadro-preco label{
+  margin-top: 60px;
+  margin-left: 20px;
+  position: absolute;
+  float: left;
+  font-family: mozer;
+  font-size: 20px;
+  color: gray;
+}
+
+#preco {
+  margin-left: 20px;
+  position: absolute;
+  float: left;
+  font-family: mozer;
+  font-size: 40px;
+  margin-top: 70px;
+  color: rgb(74, 74, 233);
+}
+
+.btn-primary{
+  height: 50px;
+  width: 180px;
+  background-color: rgb(74, 74, 233);
+  border-radius: 12px;
+  position: absolute;
+  border: none;
+  color: white;
+  margin-left: 80px;
+  font-family: akrobat;
+  font-size: 15px;
+  margin-top: 240px;
+  padding: 10px;
+  margin-top: 160px;
+}
+
+@font-face{
+  font-family: mozer;
+  src: url(../../assets/fonts/Mozer/Mozer-SemiBold.otf);
+}
